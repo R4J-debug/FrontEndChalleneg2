@@ -1,0 +1,276 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(244,208,78,100%);
+    height:100vh;
+}
+
+.cardContainer{
+       /* Frame 3 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 25px;
+
+position: absolute;
+width: 384px;
+height: 550px;
+left: calc(50% - 384px/2);
+top: calc(50% - 522px/2 - 0.5px);
+
+background: #FFFFFF;
+border: 1px solid #111111;
+box-shadow: 8px 8px 0px  #24231e;
+border-radius: 20px;
+}
+
+.cardContainer:hover{
+    box-shadow: 10px 10px 20px black;
+    background-color: rgb(231, 195, 35);
+}
+
+.blogImage{
+    /* blogimage */
+
+/* blogimage */
+
+width: 336px;
+height: 200px;
+
+background: #F4D04E;
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+background-image: url(./blogimage.png);
+
+}
+
+.content{
+    /* content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+padding: 0px;
+gap: 2px;
+
+width: 336px;
+height: 194px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin-bottom: 20px;
+
+}
+ .category{
+    /* category */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 12px;
+gap: 8px;
+
+width: 82px;
+height: 29px;
+
+background: #F4D04E;
+border-radius: 4px;
+margin-bottom: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Learning */
+
+width: 58px;
+height: 21px;
+
+/* Body S (Bold) */
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+color: #111111;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+ }
+
+ .content.text{
+    /* publishdate */
+
+width: 143px;
+height: 21px;
+
+/* Body S (Regular) */
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+color: #111111;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+ }
+
+#heading{
+    /* title */
+
+width: 336px;
+height: 36px;
+
+/* Heading */
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 150%;
+/* identical to box height, or 36px */
+
+color: #111111;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+#para{
+    /* description */
+
+width: 336px;
+height: 72px;
+
+
+/* Body M */
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+/* or 24px */
+
+color: #7F7F7F;
+
+margin-top: -10px;
+margin-bottom:20px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.author{
+    /* author */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 400px;
+height: 80px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* authorname */
+
+width: 85px;
+height: 21px;
+
+/* Body S (Bold) */
+font-family: 'Figtree';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+color: #111111;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.author .name{
+flex:none;
+order:2;
+width:85px;
+height:21px;
+}
+
+.author img{
+    /* userpic */
+
+width: 32px;
+height: 32px;
+float:left;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+
+
+
+
+
+
+
